@@ -24,7 +24,7 @@ const App = () => {
       <ToastContainer />
       <SearchBar />
       <Routes>
-        <Route path='vistara_e-commerce_by_techspire/' element={<Home />}/>
+        <Route path='vistara_e-commerce_by_techspire/' element={<Home />}/> || <Route path='vistara_e-commerce_by_techspire/vistara_e-commerce_by_techspire/' element={<Home />}/> 
         <Route path='/product/:productId' element={<Product />}/>
         <Route path="/collection" element={<Collection />} />
         <Route path="/contact" element={<Contact />} />
