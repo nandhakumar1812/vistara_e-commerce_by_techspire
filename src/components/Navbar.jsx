@@ -11,7 +11,7 @@ const Navbar = () => {
 
   return (
     <div className='flex items-center justify-between py-2.5 font-medium'>
-        <NavLink to="/">
+        <NavLink to="vistara_e-commerce_by_techspire/">
             <img src={assets.vistara_logo} className="w-[125px] h-[125px]" alt="" />
         </NavLink>
         
