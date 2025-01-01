@@ -19,9 +19,7 @@ const Footer = () => {
             <div>
                 <p className='text-xl font-medium mb-5 mt-6'>COMPANY</p>
                 <ul className='flex flex-col gap-1 text-gray-600'>
-                    <NavLink to="vistara_e-commerce_by_techspire" className="cursor-pointer">
-                        <li className='my-1'>Home</li>
-                    </NavLink>
+                    <li className='my-1'>Home</li>
                     <li className='my-1'>About us</li>
                     <li className='my-1'>Delivery</li>
                     <li className='my-1'>Privacy Policy</li>
