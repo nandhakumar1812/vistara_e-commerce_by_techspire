@@ -25,14 +25,14 @@ const App = () => {
       <SearchBar />
       <Routes>
         <Route path='vistara_e-commerce_by_techspire/' element={<Home />}/>
-        <Route path='vistara_e-commerce_by_techspire/product/:productId' element={<Product />}/>
-        <Route path="vistara_e-commerce_by_techspire/collection" element={<Collection />} />
-        <Route path="vistara_e-commerce_by_techspire/contact" element={<Contact />} />
-        <Route path="vistara_e-commerce_by_techspire/about" element={<About />} />
-        <Route path="vistara_e-commerce_by_techspire/login" element={<Login />} />
-        <Route path="vistara_e-commerce_by_techspire/place-order" element={<PlaceOrder />} />
-        <Route path="vistara_e-commerce_by_techspire/orders" element={<Orders />} />
-        <Route path="vistara_e-commerce_by_techspire/cart" element={<Cart />} />
+        <Route path='/product/:productId' element={<Product />}/>
+        <Route path="/collection" element={<Collection />} />
+        <Route path="/contact" element={<Contact />} />
+        <Route path="/about" element={<About />} />
+        <Route path="/login" element={<Login />} />
+        <Route path="/place-order" element={<PlaceOrder />} />
+        <Route path="/orders" element={<Orders />} />
+        <Route path="/cart" element={<Cart />} />
       </Routes>
       <Footer />
     </div>
