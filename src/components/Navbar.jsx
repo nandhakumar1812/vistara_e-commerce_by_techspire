@@ -63,7 +63,7 @@ const Navbar = () => {
                     <img src={assets.dropdown_icon} className='h-4 rotate-180' alt="" />
                     <p className='text-black'>Back</p>
                 </div>
-                <NavLink onClick={()=>setVisible(false)} to="vistara_e-commerce_by_techspire/" className="py-2 pl-6 border">HOME</NavLink>
+                <NavLink onClick={()=>setVisible(false)} to="/" className="py-2 pl-6 border">HOME</NavLink>
                 <NavLink onClick={()=>setVisible(false)} to="/collection" className="py-2 pl-6 border">COLLECTION</NavLink>
                 <NavLink onClick={()=>setVisible(false)} to="/about" className="py-2 pl-6 border">ABOUT</NavLink>
                 <NavLink onClick={()=>setVisible(false)} to="/contact" className="py-2 pl-6 border">CONTACT</NavLink>
